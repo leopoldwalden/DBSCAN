@@ -1,12 +1,14 @@
 # DBSCAN
 DBSCAN in Java
----------------------------------------------------------------------------------------------------------------
-1.数据源说明
-数据源存放格式为：“0.67 	1.27 ”；
-单列存放，读取时按行读取；
-该方式含制表符，可直接将处理结果数据复制进excel生成两列。
----------------------------------------------------------------------------------------------------------------
-2.程序说明
-本程序读取文件路径为“g:\\”，运行前将数据源文件dataset.txt放入G盘即可；若没有G盘，可自行修改程序中读取路径盘符；
-本程序结果生成文件路径也为“g:\\”，可在读取文件相同目录下查看。
----------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
+1.Data Introduction
+a.Store form example：“0.67 	1.27 ”；
+b.Stored in form of single row.Read according to line；
+c.Stored in this way contains tab charactor.And then can copy the processing result directly into a excel table in form of two rows for     charting. 
+
+------------------------------------------------------------------------------------------------------------------------------------------
+2.Program Statement
+a.The reading path is "G:\\".Before running,you should copy the file "dataset.txt" to the reading path.If there's no disc G,you can change  the reading path code in program into another drive letter.
+b.The proccesing result names "clustering.txt"will be stored in the same drive letter as the source data file. 
+  
+------------------------------------------------------------------------------------------------------------------------------------------
